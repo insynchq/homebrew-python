@@ -1,4 +1,4 @@
-class Libevent < Formula
+class Libevent2022 < Formula
   desc "Asynchronous event library"
   homepage "http://libevent.org"
   url "https://github.com/libevent/libevent/releases/download/release-2.0.22-stable/libevent-2.0.22-stable.tar.gz"
