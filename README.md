@@ -4,10 +4,19 @@ These are [Homebrew](http://brew.sh/) taps for installing specific versions of d
 
 ## Usage
 
+If you previously installed these using the default formulae:
+
+```
+brew uninstall python
+brew uninstall libevent
+```
+
+Then:
+
 ```
 brew tap insynchq/taps
-brew install insynchq/taps/python2-universal
-brew install insynchq/taps/libevent-2.0.22
+brew install python2-universal
+brew install libevent-2.0.22
 ```
 
 ## Python
