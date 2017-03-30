@@ -1,8 +1,8 @@
 class Libevent2022 < Formula
   desc "Asynchronous event library"
   homepage "http://libevent.org"
-  url "https://github.com/libevent/libevent/releases/download/release-2.0.22-stable/libevent-2.0.22-stable.tar.gz"
-  sha256 "316ddb401745ac5d222d7c529ef1eada12f58f6376a66c1118eee803cb70f83d"
+  url "https://github.com/libevent/libevent/archive/release-2.0.22-stable.tar.gz"
+  sha256 "ab89639b0819befb1d8b293d52047c6955f8d1c9150c2b22a0e6247930eb9128"
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
