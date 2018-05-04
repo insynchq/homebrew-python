@@ -27,7 +27,7 @@ class Libevent2022 < Formula
   end
 
   test do
-    (testpath/"test.c").write <<-EOS.undent
+    (testpath/"test.c").write <<~EOS
       #include <event2/event.h>
 
       int main()
